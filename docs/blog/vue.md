@@ -18,7 +18,7 @@ meta:
 2. 实现一个指令解析器 Complie,对每个元素节点的指令进行扫描和解析，根据指令模板替换数据，以及绑定相应的更新函数
 3. 实现一个 Watcher，作为连接 Observer 和 Compile 的桥梁，能够订阅并收到每个属性变动的通知，执行指令绑定的相应回调函数，从而更新视图
 4. mvvm 入口函数，整合以上三者
-   ![avatar](./mvvm.png)
+   ![avatar](../img/mvvm.png)
 
 #### Observer
 
